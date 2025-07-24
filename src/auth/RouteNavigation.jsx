@@ -37,32 +37,32 @@ const RouteNavigation = () => {
               <Route path="/" element={<Home />} />
               <Route path="/logout" element={<Logout />} />
               {/* category */}
-              <Route path="/category" element={<Listcategory />} />
-              <Route path="/category/add" element={<Addcategory />} />
-              <Route path="/category/:id" element={<Editcategory />} />
+              <Route path="/api/category" element={<Listcategory />} />
+              <Route path="/api/category/add" element={<Addcategory />} />
+              <Route path="/api/category/:id" element={<Editcategory />} />
               {/* supplier */}
-              <Route path="/supplier" element={<Listsupplier />} />
-              <Route path="/supplier/add" element={<Addsupplier />} />
-              <Route path="/supplier/:id" element={<Editsupplier />} />
+              <Route path="/api/supplier" element={<Listsupplier />} />
+              <Route path="/api/supplier/add" element={<Addsupplier />} />
+              <Route path="/api/supplier/:id" element={<Editsupplier />} />
               {/* product */}
-              <Route path="/product" element={<Listproduct />} />
-              <Route path="/product/add" element={<Addproduct />} />
-              <Route path="/product/:id" element={<Editproduct />} />
+              <Route path="/api/product" element={<Listproduct />} />
+              <Route path="/api/product/add" element={<Addproduct />} />
+              <Route path="/api/product/:id" element={<Editproduct />} />
               {/* sales */}
-              <Route path="/sales" element={<Listsales />} />
-              <Route path="/orders/:id" element={<OrderSend />} />
+              <Route path="/api/sales" element={<Listsales />} />
+              <Route path="/api/orders/:id" element={<OrderSend />} />
               {/* sales History */}
-              <Route path="/sales-history" element={<ListsalesHistory />} />
-              <Route path="/sales-return/:id" element={<SalesReturn />} />
+              <Route path="/api/sales-history" element={<ListsalesHistory />} />
+              <Route path="/api/sales-return/:id" element={<SalesReturn />} />
               {/* purchase */}
-              <Route path="/purchase" element={<Listpurchase />} />
-              <Route path="/purchase/add" element={<Addpurchase />} />
-              <Route path="/purchase/print/:id" element={<Printpurchase />} />
+              <Route path="/api/purchase" element={<Listpurchase />} />
+              <Route path="/api/purchase/add" element={<Addpurchase />} />
+              <Route path="/api/purchase/print/:id" element={<Printpurchase />} />
               {/* report */}
-              <Route path="/supplier-report" element={<SupplierReport />} />
-              <Route path="/product-report" element={<ProductReport />} />
-              <Route path="/sales-report" element={<SalesReport />} />
-              <Route path="/purchase-report" element={<PurchaseReport />} />
+              <Route path="/api/supplier-report" element={<SupplierReport />} />
+              <Route path="/api/product-report" element={<ProductReport />} />
+              <Route path="/api/sales-report" element={<SalesReport />} />
+              <Route path="/api/purchase-report" element={<PurchaseReport />} />
               {/* page notfound */}
               <Route path="*" element={<NoPage />} />
             </Routes>
