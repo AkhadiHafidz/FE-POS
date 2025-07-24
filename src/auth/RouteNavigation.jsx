@@ -35,7 +35,7 @@ const RouteNavigation = () => {
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/logout" element={<Logout />} />
+              <Route path="/api/logout" element={<Logout />} />
               {/* category */}
               <Route path="/api/category" element={<Listcategory />} />
               <Route path="/api/category/add" element={<Addcategory />} />
