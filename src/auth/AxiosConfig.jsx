@@ -24,7 +24,7 @@ const refreshAuthLogic = async (failedRequest) => {
     };
 
     let reqOptions = {
-      url: `/api/users/refresh`,
+      url: `/api/user/refresh`,
       method: "GET",
       headers: headersList,
     };
